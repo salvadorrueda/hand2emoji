@@ -43,5 +43,7 @@ class GestureClassifier:
             return "Thumbs Up"
         elif fingers == [0, 1, 0, 0, 0] or fingers == [1, 1, 0, 0, 0]: # Pointing
             return "Pointing"
+        elif fingers == [0, 0, 1, 0, 0]: # Middle Finger
+            return "Middle Finger"
         else:
             return "Unknown"

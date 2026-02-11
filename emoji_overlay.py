@@ -10,6 +10,7 @@ class EmojiOverlay:
             "Victory": "✌️",
             "Thumbs Up": "👍",
             "Pointing": "☝️",
+            "Middle Finger": "🖕",
             "Unknown": "??"
         }
         # Try to load a font that supports emojis. 
